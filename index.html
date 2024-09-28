@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minecraft Resource Pack Editor</title>
+</head>
+<body>
+    <h1>Minecraft Resource Pack Editor</h1>
+    <input type="file" id="file-input" accept=".mcpack" />
+    <h2>Edit JSON</h2>
+    <textarea id="json-editor" rows="15" cols="80" placeholder="Edit your JSON here..."></textarea>
+    <button id="preview-button">Preview Changes</button>
+    <button id="download-button">Download Modified Pack</button>
+    <h2>Preview</h2>
+    <div id="preview-area"></div>
+    <script src="libs/jszip.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
